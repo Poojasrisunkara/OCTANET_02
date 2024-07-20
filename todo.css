@@ -1,0 +1,281 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+body{
+    font-family: Cookie;
+    margin: 20px 0px 0px 0px;
+    background-image: url('i1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.d1{
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: 420px 140px;
+   column-gap: 30px;
+   height: 80px;
+   background-color: rgba(124, 117, 88, 0.185);
+   padding: 20px;
+   border-radius: 100px;
+   text-align: center;
+   max-width: 100%;
+   margin: auto;
+}
+.hd1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 70px 0px 30px 0px;
+    color:  #9A4EAE;
+   
+}
+.d2{
+    display: grid;
+   grid-template-columns: 260px 120px;
+   column-gap: 10px;
+   background-color:   #01013F;
+   border-radius: 60px;
+   width: 405px;
+   height: 64px;
+   margin-top: 8px;
+   margin-left: 6px;
+}
+.d2:hover{
+    background-color: rgba(45, 24, 24, 0.519);
+}
+.inputasks{
+    height: 50px;
+    width: 300px;
+    margin: 3.8px 0px 0px 10px;
+    font-family: Cookie;
+    border-radius: 30px;
+    font-size: 30px;
+    border-color: white;
+    border-style: solid;
+    padding-left: 10px;
+    outline: none;
+}
+.inputdue{
+    height: 52px;
+    width: 120px;
+    margin: 3.8px 0px 0px 0px;
+    font-family: Cookie;
+    border-radius: 40px;
+    font-size: 22px;
+    border-color: white;
+    border-style: solid;
+}
+.addb{
+    height: 68px;
+    width: 150px;
+    margin: 7px 0px 0px 0px;
+    font-family: Cookie;
+    border-radius: 45px;
+    font-size: 32px;
+    border-color: #01013F;
+    border-width: 4px;
+    border-style: solid;
+    cursor: pointer;
+}
+.addb:hover{
+    background-color: #030C54;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+
+}
+.inputcategory{
+    background-color: white;
+    margin-top: 30px;
+    height: 50px;
+    font-family: Cookie;
+    font-size: 25px;
+    width: 120px;
+    border-radius: 40px;
+    padding-left: 10px ;
+    border-color: #01013F;
+    border-width: 3px;
+    border-style: solid;
+    cursor: pointer;
+}
+.inputcategory:hover{
+    background-color: rgba(45, 24, 24, 0.519);
+    color: white;
+    border-color: white;
+    border-width: 1px;
+}
+.pd {
+    width: 100%;                
+    text-align: center;           
+}
+.taskslist{
+    display: grid;
+   grid-template-columns: 20px 200px 20px 110px 100px;
+   column-gap: 30px;
+   row-gap: 30px;
+   font-size: 27px;
+   margin: 40px auto 10px auto;
+}
+.edit-icon {
+    cursor: pointer;
+    margin-top: 12px;
+    color: #030C54;
+}
+.cdiv {
+    margin-top: 10px;
+    height: 25px;
+    width: 25px;
+    background-color: black; 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    cursor: pointer;
+  }
+.cdiv::after {
+    content: '';
+    position: absolute;
+    display: none;
+    left: 8px;
+    top: 3px;
+    width: 5px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+.cdiv:checked::after {
+    display: block;
+  }
+.cdiv:checked {
+    background-color: black;
+  }
+  
+.tn{
+    font-size: 36px;
+    margin-top: 3px;
+}
+.db{
+    margin-left: 20px;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    border-style: solid;
+    font-family: Cookie;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.dub{
+    margin-top: 11px;
+}
+.db:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+}
+/*Responsive*/
+@media(max-width: 750px) and (min-width: 200px){
+    body{
+        height: 100vh;
+    }
+    .d1{
+        display: flex;
+        justify-items: center;
+        margin: auto;
+       column-gap: 10px;
+       height: 60px;
+       padding: 10px;
+       margin: auto;
+    }
+    .hd1{
+        font-size: 30px;
+    }
+    .d2{
+        display: grid;
+       grid-template-columns: 110px 130px;
+       column-gap: 0px;
+       width: 250px;
+       height: 54px;
+       margin-top: 4px;
+       margin-left: 6px;
+    }
+    .inputasks{
+        height: 40px;
+        width: 130px;
+        margin: 3.8px 0px 0px 10px;
+        font-size: 20px;
+    
+    }
+    .inputdue{
+        height: 42px;
+        width: 120px;
+        margin: 3.8px 0px 0px 0px;
+
+        font-size: 22px;
+   
+    }
+    .addb{
+        height: 48px;
+        width: 90px;
+        margin: 7px 0px 0px 0px;
+        font-size: 22px;
+    }
+    .c2{
+        display: flex;
+        justify-items: center;
+        margin: auto;
+    }
+    .cdiv{
+        height: 15px;
+        width: 15px;
+        margin-top: 10px;
+    }
+    .cdiv::after {
+        left: 3px;
+        top: 1px;
+        width: 4px;
+        height: 8px;
+      }
+    .taskslist{
+        display: grid;
+       grid-template-columns: 30px 110px 20px 85px 40px;
+       column-gap: 0px;
+       row-gap: 20px;
+       font-size: 27px;
+       margin: auto;
+       margin-top: 30px;
+       margin-left: auto;
+    }
+    .inputcategory{
+        font-size: 20px;
+        height: 40px;
+        width: 100px;
+    }
+    .edit-icon{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .tn{
+        font-size: 26px;
+        margin-top: 2px;
+        width: 100px;
+    }
+    .db{
+        border-radius: 25px;
+        width: 60px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .dub{
+        font-size: 20px;
+        margin-top: 6px;
+    }
+}
+
+

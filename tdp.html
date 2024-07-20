@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <script src="tdp.js"></script>
+    <div class="container">
+        <p class="hd1">Sparkle & Shine: Your Daily To-Do List!</p>
+        <div class="d1">
+            <div class="d2">
+                <input placeholder="Enter the Task" class="inputasks"> 
+                <input type="date" class="inputdue">  </div>
+            <div class="c2">
+                <button class="addb" onclick="Addtasks()">Add Task</button>
+            </div>
+        </div>
+        <div class="pd">
+        <select class="inputcategory" onchange="displaylist()">
+            <option value="All">All</option>
+            <option value="Personal">Personal</option>
+            <option value="Work">Work</option>
+            <option value="Urgent">Urgent</option>
+            <option value="Important">Important</option>
+        </select>
+    </div>
+
+        <div class="taskslist"></div>
+    </div>
+</body>
+</html>
+
