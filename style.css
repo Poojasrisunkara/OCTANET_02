@@ -134,6 +134,7 @@ body{
     -moz-appearance: none;
     position: relative;
     cursor: pointer;
+    border-radius: 15px;
   }
 .cdiv::after {
     content: '';
