@@ -1,6 +1,12 @@
-# To-Do Website
+# Responsive To-Do Website
 
 This project is a to-do list application created as part of my internship at Octanet. The application allows users to manage their tasks effectively by providing features to add, edit, delete, and categorize tasks based on urgency, importance, work, or personal categories. It is built using HTML, CSS, and JavaScript.
+
+## Project Overview
+
+
+https://github.com/user-attachments/assets/55187ec5-74b6-4a58-9ca5-4d8ef1b4cf28
+
 
 ## Features
 
